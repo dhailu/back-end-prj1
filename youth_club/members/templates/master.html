@@ -1,0 +1,13 @@
+<!-- Django provides a way of making a "parent template" that you can include in all pages to do the stuff that is the same in all pages. -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+
+{% block content %}
+{% endblock %}
+
+</body>
+</html>
